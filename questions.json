@@ -1,0 +1,38 @@
+{
+  "metrics": {
+    "metric1": "Créativité",
+    "metric2": "Logique",
+    "metric3": "Énergie",
+    "metric4": "Empathie"
+  },
+  "questions": [
+    {
+      "question": "Quelle est votre couleur préférée ?",
+      "answers": [
+        { "text": "Rouge", "effects": { "metric1": 2, "metric4": -5 } },
+        { "text": "Bleu", "effects": { "metric2": 3 } }
+      ]
+    },
+    {
+      "question": "Préférez-vous la mer ou la montagne ?",
+      "answers": [
+        { "text": "Mer", "effects": { "metric1": 1, "metric3": 2 } },
+        { "text": "Montagne", "effects": { "metric2": 2, "metric4": 1 } }
+      ]
+    },
+    {
+      "question": "J'écris ce que je veux dans les questions",
+      "answers": [
+        { "text": "Ah bon ?", "effects": { "metric1": 5, "metric4": 2 } },
+        { "text": "Et peux tu les modifier ?", "effects": { "metric3": -3, "metric4": 3 } }
+      ]
+    },
+    {
+      "question": "Oui je peux et je peux même le faire en 30 secondes et je peux aussi modifier les poids des réponses, par exemple la réponse 666 raportera 666 points à l'énergie et -666 à l'empathie.",
+      "answers": [
+        { "text": "Super", "effects": { "metric2": -1, "metric3": 1 } },
+        { "text": "666", "effects": { "metric3": 666, "metric4": -666 } }
+      ]
+    }
+  ]
+}
